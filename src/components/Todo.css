@@ -1,0 +1,40 @@
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  word-break: break-all;
+  min-height: 3rem;
+  margin: 1rem 0;
+  padding: 0 1rem;
+  border-radius: 1rem;
+  color: rgb(85, 85, 85);
+  background: #f3f3f3;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.todoBtn {
+  height: 2rem;
+  width: 3rem;
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+
+.todoBtn:hover {
+  transform: scale(1.2);
+}
+
+.todoBtn:nth-child(1) {
+  color: rgb(9, 223, 9);
+}
+
+.todoBtn:nth-child(2) {
+  color: rgb(216, 76, 76);
+}
